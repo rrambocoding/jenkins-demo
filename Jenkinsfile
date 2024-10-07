@@ -4,6 +4,7 @@ pipeline{
     stage("build"){
       steps{
           echo 'build the application'
+          echo 'autodetect'
       }
     }
     stage("test"){
